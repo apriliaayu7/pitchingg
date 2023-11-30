@@ -118,7 +118,7 @@ footer {
 </style>
 </head>
 <body>
-    <!-- Navigasi Bar -->
+    <!-- Navsigasi Bar -->
     <nav class="hero">
         <link rel="stylesheet" href="LOGO GIZI GUARD.png">
         <img src="{{asset('assets/LOGO GIZI GUARD.jpg')}}" alt="Logo" class="navbar-logo">
