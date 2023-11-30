@@ -1,0 +1,110 @@
+/* gizi.css */
+
+/* Navigasi Bar */
+nav {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #F6F1ED;
+    color: rgb(0, 0, 0);
+}
+
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav {
+    background-color: #F6F1ED;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 80px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    height: 30px; /* Mempertahankan rasio aspek gambar */
+    margin-right: 100px; /* Jarak antara gambar dan elemen lain di navbar */
+    align-items: left;
+}
+
+.btn {
+    background-color: #FFC436;
+    color: #000000;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30-px;
+    background-color: #FFF0CD;
+}
+
+header .left {
+    flex: 30;
+}
+
+header .right {
+    flex: 30;
+}
+
+/* Thumbnails */
+.thumbnails {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.thumbnail {
+    flex: 1;
+    text-align: center;
+}
+
+.thumbnail img {
+    width: 50%;
+}
+
+/* Style the image grid section */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image-row {
+    display: flex;
+    margin: 10px 0;
+}
+
+.image-row img {
+    max-width: 32%;
+    margin: 0 10px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #F6F1ED;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
